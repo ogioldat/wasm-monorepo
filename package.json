@@ -1,0 +1,15 @@
+{
+  "name": "wasm-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Tomasz Ogiołda",
+  "license": "ISC",
+  "workspaces": [
+    "packages/**",
+    "apps/**"
+  ],
+  "engines": {
+    "pnpm": ">=8"
+  }
+}

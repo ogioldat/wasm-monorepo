@@ -1,5 +1,8 @@
 # WASM learning project
 
+These are just a rough sketches around building WASM monorepo apps.
+Expect a lot of areas for improvements :P 
+
 
 ## Prerequisites
 
@@ -10,9 +13,9 @@
 ## Build the WASM binary
 
 ```shell
-cd packages/rust && wasm-pack build -d ../wasm --target web --out-name wasm
+cd apps/rust && wasm-pack build -d ../../packages/wasm --target web --out-name wasm
 ```
 
 ## TODOS
 
-1. Use nx for delegating wasm build?
+1. Use nx for wasm build?

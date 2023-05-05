@@ -13,7 +13,7 @@ Expect a lot of areas for improvements :P
 ## Build the WASM binary
 
 ```shell
-cd apps/rust && wasm-pack build -d ../../packages/wasm --target web --out-name wasm
+cd apps/rust-wasm && wasm-pack build -d ../../packages/wasm --target web --out-name wasm
 ```
 
 ## TODOS
